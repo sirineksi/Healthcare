@@ -11,6 +11,11 @@
 		23A6DCCC2AB1C817004D9FBF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A6DCCB2AB1C817004D9FBF /* ContentView.swift */; };
 		23A6DCCE2AB1C819004D9FBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23A6DCCD2AB1C819004D9FBF /* Assets.xcassets */; };
 		23A6DCD12AB1C819004D9FBF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23A6DCD02AB1C819004D9FBF /* Preview Assets.xcassets */; };
+		23A6DCD82AB1C833004D9FBF /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A6DCD72AB1C833004D9FBF /* Model.swift */; };
+		23A6DCDA2AB1D7F5004D9FBF /* HospitalListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A6DCD92AB1D7F5004D9FBF /* HospitalListView.swift */; };
+		23A6DCDC2AB1D806004D9FBF /* DoctorListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A6DCDB2AB1D806004D9FBF /* DoctorListView.swift */; };
+		23A6DCDE2AB1D81B004D9FBF /* SectionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A6DCDD2AB1D81B004D9FBF /* SectionListView.swift */; };
+		23A6DCE02AB1D831004D9FBF /* InsuranceListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A6DCDF2AB1D831004D9FBF /* InsuranceListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		23A6DCCB2AB1C817004D9FBF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		23A6DCCD2AB1C819004D9FBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23A6DCD02AB1C819004D9FBF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		23A6DCD72AB1C833004D9FBF /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		23A6DCD92AB1D7F5004D9FBF /* HospitalListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HospitalListView.swift; sourceTree = "<group>"; };
+		23A6DCDB2AB1D806004D9FBF /* DoctorListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorListView.swift; sourceTree = "<group>"; };
+		23A6DCDD2AB1D81B004D9FBF /* SectionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionListView.swift; sourceTree = "<group>"; };
+		23A6DCDF2AB1D831004D9FBF /* InsuranceListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsuranceListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +65,11 @@
 				23A6DCCB2AB1C817004D9FBF /* ContentView.swift */,
 				23A6DCCD2AB1C819004D9FBF /* Assets.xcassets */,
 				23A6DCCF2AB1C819004D9FBF /* Preview Content */,
+				23A6DCD72AB1C833004D9FBF /* Model.swift */,
+				23A6DCD92AB1D7F5004D9FBF /* HospitalListView.swift */,
+				23A6DCDB2AB1D806004D9FBF /* DoctorListView.swift */,
+				23A6DCDD2AB1D81B004D9FBF /* SectionListView.swift */,
+				23A6DCDF2AB1D831004D9FBF /* InsuranceListView.swift */,
 			);
 			path = Healthcare;
 			sourceTree = "<group>";
@@ -137,8 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23A6DCDA2AB1D7F5004D9FBF /* HospitalListView.swift in Sources */,
+				23A6DCD82AB1C833004D9FBF /* Model.swift in Sources */,
 				23A6DCCC2AB1C817004D9FBF /* ContentView.swift in Sources */,
 				23A6DCCA2AB1C817004D9FBF /* HealthcareApp.swift in Sources */,
+				23A6DCDE2AB1D81B004D9FBF /* SectionListView.swift in Sources */,
+				23A6DCDC2AB1D806004D9FBF /* DoctorListView.swift in Sources */,
+				23A6DCE02AB1D831004D9FBF /* InsuranceListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
