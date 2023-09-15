@@ -13,24 +13,30 @@ struct Hospital: Identifiable {
     let id = UUID()
     let hospitalName: String
     let hospitalAdress: String
-    let hospitalPhone: Int
+    let hospitalPhone: String
     let hospitalImage: Image = Image( "hospital")
-    let latitude: String
-    let longitude: String
+    let location: Location
     
     }
+
+   struct Location {
+  
+    let latitude: String
+    let longitude: String
+   }
+                    
 
 struct Doctor: Identifiable {
     
     let id =  UUID()
     let doctorName: String
     let doctorSurname: String
-    let doctorTelephone: Int
+    let doctorTelephone: String
     let doctorTitle: String
     let doctorBranc: String
 }
 
-struct Section: Identifiable {
+struct Section1: Identifiable {
     
     let id = UUID()
     let sectionName: String

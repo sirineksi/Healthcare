@@ -16,7 +16,7 @@ struct ContentView: View {
                     Image("medicine")
                         .resizable()
                         .aspectRatio(contentMode: .fit)
-                        .frame(width: 180, height: 180)
+                        .frame(width: 140, height: 140)
                         .padding()
                         .foregroundColor(Color.white)
                         .cornerRadius(15)
