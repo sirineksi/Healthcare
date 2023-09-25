@@ -36,17 +36,17 @@ struct Doctor: Identifiable {
     let doctorBranc: String
 }
 
-struct Section1: Identifiable {
+struct SectionModel: Identifiable {
     
     let id = UUID()
     let sectionName: String
-    let sectionLogo: Image
+    let sectionLogo: Image = Image ("sections")
 }
 
 struct Insurance: Identifiable {
     
     let id = UUID()
     let insuranceName: String
-    let insuranceLogo: Image
+    let insuranceLogo: Image = Image ("insurance")
 }
 

@@ -27,11 +27,11 @@ struct DoctorAddView: View {
     var body: some View {
         Form{
             Section(header: Text("Doctor Bilgileri")) {
-                TextField("Doctor Adı:", text: $newDoctorName)
-                TextField("Doctor SoyAdı:", text: $newDoctorSurname)
-                TextField("Doctor Telefonu:", text: $newDoctorTelephone)
-                TextField("Doctor Title:", text: $newDoctorTitle)
-                TextField("Doctor Branş:", text: $newDoctorBranc)
+                TextField("Doktor Adı:", text: $newDoctorName)
+                TextField("Doktor SoyAdı:", text: $newDoctorSurname)
+                TextField("Doktor Telefonu:", text: $newDoctorTelephone)
+                TextField("Doktor Title:", text: $newDoctorTitle)
+                TextField("Doktor Branş:", text: $newDoctorBranc)
                 
             }
             
@@ -41,10 +41,10 @@ struct DoctorAddView: View {
                 }
             }
         }
-        .navigationTitle("Doctor Ekle")
+        .navigationTitle("Doktor Ekle")
         .alert(isPresented: $isAlertPresented, content: {
             Alert(
-            title: Text("Doctor Eklendi"),
+            title: Text("Doktor Eklendi"),
             message: Text(alertMessage),
             dismissButton: .default(Text("Tamam")) {
                 print("Tamam butonu tıklandı")

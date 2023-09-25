@@ -10,6 +10,7 @@ import SwiftUI
 struct DoctorDetailView: View {
     
     let doctor: Doctor
+    
     var body: some View {
         VStack {
             Text("Hastahane Adı: \(doctor.doctorName)")
